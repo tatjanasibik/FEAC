@@ -9,12 +9,12 @@ import styles from "../Components/CategoryList.module.css";
 
 
 const categories = [
-    {name: "Angelai", img: Angelai, color: ""},
-    {name: "Gyvunai", img: Gyvunai, color: ""},
-    {name: "Miestai", img: Miestai, color: ""},
+    {name: "Peizažai", img: Peizazai, color: ""},
     {name: "Natiurmortai", img: Natiurmortai, color: ""},
-    {name: "Peizazai", img: Peizazai, color: ""},
-    {name: "Zmones", img: Zmones, color: ""},
+    {name: "Angelai", img: Angelai, color: ""},
+    {name: "Miestai", img: Miestai, color: ""},
+    {name: "Žmonės", img: Zmones, color: ""},
+    {name: "Gyvūnai", img: Gyvunai, color: ""},  
 ]
 
 const CategoryList = () => {
