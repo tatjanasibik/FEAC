@@ -1,24 +1,22 @@
-import styles from "./CategoryList.module.css";
 import PropTypes from 'prop-types';
+import styles from "./CategoryList.module.css";
 
 const CategoryCard = ({ category }) => {
-  const { name, /*icon*/} = category;
-//   const Icon = icon;
+  const { name, img } = category;
 
   return (
     <div className={styles.card}>
-      {/* <Icon fontSize={48} color={category.color} /> */}
+      <img src={img} alt={name} className={styles.image} />
       <p className={styles.name}>{name}</p>
     </div>
   );
 };
 
 CategoryCard.propTypes = {
-    category: PropTypes.shape({
-      name: PropTypes.string.isRequired,
-      icon: PropTypes.elementType.isRequired,
-      color: PropTypes.string,
-    }).isRequired,
-  };
+  category: PropTypes.shape({
+    name: PropTypes.string.isRequired,
+    img: PropTypes.string,
+  }).isRequired,
+};
 
 export default CategoryCard;
