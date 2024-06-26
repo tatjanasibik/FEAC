@@ -1,0 +1,35 @@
+.navigation {
+    display: flex;
+    gap: 1.5rem;
+  }
+
+.centerSide {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+
+.topbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 2rem 4rem;
+  border-bottom: 2px solid #f1f1f1;
+}    
+
+.link {
+  color: #323232;
+  font-size: 1.2rem;
+  font-weight: 500;
+  text-decoration: none;
+  font-weight:bold;
+}  
+
+.link:hover {
+  color: #D500F9;
+} 
+
+.logo {
+  height: 6rem;
+  width: 6rem;
+}
